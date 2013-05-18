@@ -1,0 +1,16 @@
+---
+layout: page
+title: Archive of Posts
+---
+<ul>
+{% for post in site.posts %}
+	<li>
+		<span class="date muted">
+			{{ post.date | date: "%Y %b %d" }} &raquo;&nbsp;
+		</span>
+		<span class="title">
+			<a href="{{ post.url }}">{{ post.title }}</a>
+		</span>
+	</li>
+{% endfor %}
+</ul>

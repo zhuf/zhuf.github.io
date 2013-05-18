@@ -1,0 +1,19 @@
+---
+title: I Know It's Lame, But
+author: Joshua Gonzales
+layout: post
+published: true
+permalink: 
+category: tech
+tags: windows powershell linux
+---
+
+I do my coding in Windows. And I like it. I even use [PowerShell](http://en.wikipedia.org/wiki/Windows_PowerShell) scripts to automate some tasks, in much the same way one might use bash.
+
+It's funny because, a couple years ago, I would have thought that doing any sort of scripting or web development in an environment other than linux/unix was tantamount to a dirty act. I was a linux crusader, happily spending late night hours working on my [Arch Linux](http://www.archlinux.org) system, trying to get some unsupported piece of hardware to work, or editing XML configuration files to get my Openbox window frames to just the right color.
+
+Those were good times. I learned so much about the hollistic nature of software during those years. Linux showed me the inner world of computers, and I became aware of [what sort of things](http://wiki.tcl.tk/13565) go on behind web pages and GUIs. My knowledge and confidence in technology increased phenomenally, and have served me well in the time since.
+
+I'm glad that younger me had the drive to do all the difficult and geeky stuff that he did.
+
+Now, however, I'm not so tightly opinionated. (At the very least, I no longer think of platform choice as some sort of quasi-morality that deserves to be debated.) I've also come to value practicality much more than before, and in my present situation, doing everything in Windows happens to be the most practical. So I do it happily. (Although I do miss some aspects of linux sometimes.)

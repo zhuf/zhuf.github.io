@@ -1,0 +1,36 @@
+/*
+	Site name: jfmgonzales.com
+	Author: Joshua Gonzales
+*/
+
+// THEM VARS
+$sans: "Open Sans", Helvetica, arial, freesans, clean, sans-serif;
+$serif: Georgia, serif;
+$mono: "Courier New", monospace;
+$font-color: rgb(51,51,51);
+$muted-color: rgb(90,90,90);
+$background-color: rgb(164,164,164);//#372403;
+$basic-shadow: 0 0 8px rgba(0,0,0,0.8);
+$page-shadow: 0 0 20px rgba(0,0,0,1.0);
+$content-background-color: rgb(247,247,247);
+$link-color: #2567b6;
+
+@mixin rounded($side, $radius: 6px) {
+  border-#{$side}-radius: $radius;
+  -moz-border-radius-#{$side}: $radius;
+  -webkit-border-#{$side}-radius: $radius;
+}
+@mixin rounded_box($radius: 6px) {
+  border-top-left-radius: $radius;
+  -moz-border-radius-top-left: $radius;
+  -webkit-border-top-left-radius: $radius;
+  border-top-right-radius: $radius;
+  -moz-border-radius-top-right: $radius;
+  -webkit-border-top-right-radius: $radius;
+  border-bottom-right-radius: $radius;
+  -moz-border-radius-bottom-right: $radius;
+  -webkit-border-bottom-right-radius: $radius;
+  border-bottom-left-radius: $radius;
+  -moz-border-radius-bottom-left: $radius;
+  -webkit-border-bottom-left-radius: $radius;
+}
