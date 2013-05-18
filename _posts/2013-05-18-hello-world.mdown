@@ -1,6 +1,6 @@
 ---
 title: Hello, World!
-author: Joshua Gonzales
+author: zhuf
 layout: post
 published: true
 permalink: 
@@ -8,6 +8,6 @@ category: tech
 tags: jekyll
 ---
 
-I'm delivering this site through [Github Pages](http://pages.github.com/) and its spectacular [Jekyll](https://github.com/mojombo/jekyll) static site generator. I had never heard of Jekyll until yesterday, but I'm already impressed with its power and simplicity---mostly the simplicity. After spending so much time developing Wordpress websites, I've gotten tired of bigtime PHP machines and all their glorious bloat. On the opposite end of things, working on _this_ website today was a vacation of the mind.
+I'm delivering this site through [Github Pages](http://pages.github.com/) and its spectacular [Jekyll](https://github.com/mojombo/jekyll) static site generator. I had never heard of Jekyll until yesterday, but I'm already impressed with its power and simplicity---mostly the simplicity. 
 
 I might be getting ahead of myself here, but I dare say I've found my blogging home.
