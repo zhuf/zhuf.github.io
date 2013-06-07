@@ -1,2 +1,17 @@
+server_port: 4000
+lsi: false
 pygments: true
-permalink: /posts/:title
+
+# Folders and files to ignore when compiling the site.
+exclude: ["Gemfile", "Gemfile.lock", "README.md", "Rakefile", "Capfile", "config"]
+
+# Markdown parser: RDiscount offers SmartyPants support, but Redcarpet has more
+# cool features, as seen in its extensions.
+
+markdown: rdiscount
+rdiscount:
+  extensions: ['smart']
+
+# markdown: redcarpet
+# redcarpet:
+#  extensions: ['no_intra_emphasis', 'autolink', 'strikethrough', 'superscript']

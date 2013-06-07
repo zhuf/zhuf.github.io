@@ -1,18 +1,17 @@
 ---
 layout: default
 ---
-<article class="post single page">
-	<header>
-		<h1 class="title">
-			<a href="{{ page.url }}">{{ page.title }}</a>
-		</h1>
-	</header>
-	<footer class="date">
-		<small class="muted">
-			{{ page.date | date: "%Y %B %d" }}
-		</small>
-	</footer>
-	{{ content }}
-	<p><a class="btn" href="/"><< Return Home</a></p>
+
+<section>
+	<article>
+		<header>
+			<h1>
+				{{ page.title }} <br><small>{{ page.date | date: "%m/%d/%Y" }}</small>
+			</h1>
+		</header>
+		
+		{{ content }}
+	</article>
+
 	{% include disqus.html %}
-</article>
+</section>

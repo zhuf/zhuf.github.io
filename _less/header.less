@@ -1,0 +1,26 @@
+header {
+	padding-top: @gridColumnWidth / 4;
+	padding-bottom: @gridColumnWidth / 4;
+		
+	font-family: @titleFontFamily;
+	font-weight: bold;
+	
+	a {
+		color: @textColor;
+	}
+
+	a:hover {
+		text-decoration: none;
+		color: @textColor;
+	}
+
+	h1 {
+		font-size: 40px;
+		line-height: 42px;
+		
+		&.blog-title {
+			margin-left: @gridColumnWidth / 2;
+			padding-left: @gridColumnWidth;
+		}
+	}
+}
