@@ -12,38 +12,4 @@ matplotlib , use the timestamp as the x.lim, and annotate the data in the line's
 
 the codes like blow:
 
-<pre>
-#!/usr/bin/env python
-#-*- coding: utf-8 -*-
-
-import matplotlib, datetime, numpy
-import matplotlib.pyplot as plt
-import matplotlib.dates as md
-matplotlib.rcParams['font.size'] = 10
-matplotlib.rcParams['figure.figsize'] = (7, 6)
-
-def a():
-	data = [[1370188800, 1157.3255645819013 ], [1370320194, 1824.312625642866 ],[1370396815, 2157.3255645819013 ],
-		[1370482181, 2488.669006185606 ],[1370545805, 2836.9388138828804 ]]
-
-	timestamps = [i[0] for i in data]
-	dates = [datetime.datetime.fromtimestamp(ts) for ts in timestamps]
-	values = [i[1] for i in data]
-
-	ax = plt.gca()
-	xfmt = md.DateFormatter('%m-%d')
-	ax.xaxis.set_major_formatter(xfmt)
-	plt.plot(dates, values,  marker='*', linewidth=1)
-
-
-	for i in range(len(values)):
-		plt.annotate('%.2f' % values[i], xy=(dates[i], values[i]))
-	
-
-	plt.title('NOS- Usage' )
-	plt.xlabel('date')
-	plt.ylabel('used(GB)')
-
-	plt.show()
-
-</pre>
+<script src="https://gist.github.com/zhuf/25e36189a8401d7fa1f3.js"></script>
