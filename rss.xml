@@ -4,9 +4,9 @@ layout: nil
 <?xml version="1.0"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>onox.com.br</title>
-    <link>http://onox.com.br/</link>
-    <atom:link href="http://onox.com.br/rss.xml" rel="self" type="application/rss+xml" />
+    <title>zhuf.github.io</title>
+    <link>http://zhuf.github.io/</link>
+    <atom:link href="http://zhuf.github.io/rss.xml" rel="self" type="application/rss+xml" />
     <description>So Zetta Slow</description>
     <language>en-us</language>
     <pubDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
@@ -15,10 +15,10 @@ layout: nil
     {% for post in site.posts %}
     <item>
       <title>{{ post.title }}</title>
-      <link>http://onox.com.br{{ post.url }}</link>
+      <link>http://zhuf.github.io{{ post.url }}</link>
       <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-      <author>carlos@onox.com.br (Your Name)</author>
-      <guid>http://onox.com.br{{ post.id }}</guid>
+      <author>zhuf@zhuf.github.io (Your Name)</author>
+      <guid>http://zhuf.github.io{{ post.id }}</guid>
       <description>{{ post.content | xml_escape }}</description>
     </item>
     {% endfor %}
