@@ -1,6 +1,6 @@
 ---
 layout: default
-title: So Zetta Slow
+title: zhuf's notes
 ---
 
 {% include post-list.html %}
