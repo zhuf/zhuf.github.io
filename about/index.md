@@ -3,7 +3,13 @@ layout: default
 title: about
 ---
 
-You can call me zhufeng. I am a Python 
+You can call me zhufeng.
+
+### tech stack 
+
+- Python
+- MySQL
+- Ruby
 
 ## Contact
 
