@@ -8,7 +8,7 @@ category: tech, python
 tags: python, matplotlib
 ---
 
-matplotlib , use the timestamp as the x.lim, and annotate the data in the line's nodes.
+matplotlib , use the timestamp as the x.lim, and annotate the data to the line's nodes.
 
 the codes like blow:
 
