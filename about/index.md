@@ -3,13 +3,14 @@ layout: default
 title: about
 ---
 
-You can call me zhufeng.
+You can call me zhufeng. I am a MySQL DBA at [Netease](http://www.163.com). I love coding, and develop many interesting Devops tools.
 
 ### tech stack 
 
 - Python
-- MySQL
-- Ruby
+- Django/Tornado
+- MySQL/Mongodb
+- Ruby/Ruby on Rails
 
 ## Contact
 
