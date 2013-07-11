@@ -87,6 +87,7 @@ def mysql_install():
 </pre>
 
 <pre>
+# start.sh
 nohup /root/mysql-5.6.12-linux-glibc2.5-i686/bin/mysqld_safe --defaults-file=/root/mysql/my.cnf &
 </pre>
 
