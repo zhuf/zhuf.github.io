@@ -1,17 +1,26 @@
-server_port: 4000
-lsi: false
-pygments: true
+title:            zhuf
+description:      zhuf's notes
+url:              http://zhuf.github.io
+signoff:          zhufeng
+disqus_shortname: zhuf
+facebook_appid:   # appid for like button, remove from /_includes/share.html if unwanted.
+google_analytics: UA-40977469-1
 
-# Folders and files to ignore when compiling the site.
-exclude: ["Gemfile", "Gemfile.lock", "README.md", "Rakefile", "Capfile", "config"]
-
-# Markdown parser: RDiscount offers SmartyPants support, but Redcarpet has more
-# cool features, as seen in its extensions.
-
-markdown: rdiscount
-rdiscount:
-  extensions: ['smart']
-
-# markdown: redcarpet
-# redcarpet:
-#  extensions: ['no_intra_emphasis', 'autolink', 'strikethrough', 'superscript']
+links:
+  - name:         About
+    url:          /about
+  - name:         Blog
+    url:          http://zhuf.github.io
+    external:     true
+  - name:         Email
+    url:          mailto:zhufeng9282@163.com
+    external:     true
+  - name:         GitHub
+    url:          http://github.com/zhuf
+    external:     true
+pygments:         true
+permalink:        pretty
+markdown:         redcarpet
+redcarpet:
+  extensions:
+    - smart
