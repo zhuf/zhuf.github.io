@@ -3,18 +3,18 @@ layout: page
 title: about
 ---
 
-You can call me zhufeng. I am a MySQL DBA at [Netease](http://www.163.com). I love coding, and develop many interesting Devops tools.
+You can call me zhufeng. I am a freelancer in Python. And  I love coding, I am doing my job in HFT system.
 
-### tech stack 
+### tech stacks 
 
 - Python
-- Django/Tornado
+- Flask/Django/Tornado
 - MySQL/Mongodb
-- Ruby/Ruby on Rails
+- C/C++
 
 ## Contact
 
-If you want to talk to me, the most certain way is through e-mail: _zhufeng9282@gmail.com_.
+If you want to talk to me, the most certain way is through e-mail: _zhufeng9282@163.com_.
 
 I have accounts on some social networks too:
 
